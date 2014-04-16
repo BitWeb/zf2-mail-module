@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9bfb4415f10ea23c4e09b680a3999240",
+    "hash": "737d7d1e287317fa865cfad82b17e3f6",
     "packages": [
         {
             "name": "bitweb/mail",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BitWeb/mail.git",
-                "reference": "a5f9e8b6b71541cf5d8758622be087502e6ab1ee"
+                "reference": "ddaa51a35dabf75b8bed0c880ee7d15b85fb8a95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BitWeb/mail/zipball/a5f9e8b6b71541cf5d8758622be087502e6ab1ee",
-                "reference": "a5f9e8b6b71541cf5d8758622be087502e6ab1ee",
+                "url": "https://api.github.com/repos/BitWeb/mail/zipball/ddaa51a35dabf75b8bed0c880ee7d15b85fb8a95",
+                "reference": "ddaa51a35dabf75b8bed0c880ee7d15b85fb8a95",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
             ],
             "description": "BitWeb extension for sending emails.",
             "homepage": "http://bitweb.ee/",
-            "time": "2014-04-16 12:27:32"
+            "time": "2014-04-16 15:22:30"
         },
         {
             "name": "bitweb/stdlib",

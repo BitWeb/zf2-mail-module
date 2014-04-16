@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "bitweb/mail": "~1.0",
+        "bitweb/mail": "~1.1",
         "zendframework/zend-servicemanager":"~2.2",
         "zendframework/zend-modulemanager":"~2.2",
         "zendframework/zend-mvc":"~2.2"
