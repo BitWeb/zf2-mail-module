@@ -1,0 +1,23 @@
+{
+    "name": "bitweb/zf2-mail-module",
+    "description": "BitWeb Zend Framework module for sending emails.",
+    "license": "proprietary",
+    "homepage": "http://bitweb.ee/",
+    "authors": [
+        {
+            "name": "Rain Ramm",
+            "email": "rain@bitweb.ee"
+        }
+    ],
+    "require": {
+        "bitweb/mail": "dev-master",
+        "zendframework/zend-servicemanager":"~2.2",
+        "zendframework/zend-modulemanager":"~2.2",
+        "zendframework/zend-mvc":"~2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ["src/"]
+        }
+    }
+}
