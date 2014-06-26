@@ -12,7 +12,6 @@ class Module
     {
         /* @var $mailService \BitWeb\Mail\Service\MailService */
         $mailService = $event->getApplication()->getServiceManager()->get(MailService::class);
-        $mailService->initializeListener();
     }
 
     public function getConfig()
