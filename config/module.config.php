@@ -1,6 +1,4 @@
 <?php
-use BitWeb\Mail\Service\MailService;
-use BitWeb\MailModule\Service\Factory\MailServiceFactory;
 
 return [
     'mail' => [
@@ -20,7 +18,7 @@ return [
     ],
     'service_manager' => [
         'factories' => [
-            MailService::class => MailServiceFactory::class,
+            'BitWeb\Mail\Service\MailService' => 'BitWeb\MailModule\Service\Factory\MailServiceFactory'
         ]
     ]
 ];
