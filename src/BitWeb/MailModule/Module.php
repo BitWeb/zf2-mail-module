@@ -18,4 +18,17 @@ class Module
     {
         return include __DIR__ . '/../../../config/module.config.php';
     }
+
+    public function getAutoloaderConfig()
+    {
+        $dir = dirname(dirname(dirname(__DIR__)));
+
+        return [
+            'Zend\Loader\StandardAutoloader' => [
+                'namespaces' => [
+                    __NAMESPACE__ => $dir . '/src/' . __NAMESPACE__,
+                ],
+            ],
+        ];
+    }
 }
